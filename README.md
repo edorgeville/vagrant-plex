@@ -1,3 +1,3 @@
 vagrant-plex
 ============
-Basic Vagrantfile for quick Plex server setting.
+Basic Vagrantfile for quick Plex server setup.
