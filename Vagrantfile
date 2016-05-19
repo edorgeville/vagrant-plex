@@ -6,4 +6,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision :shell, :path => "plexinstall.sh"
   config.vm.network :forwarded_port, host: 8080, guest: 80
   config.vm.network :forwarded_port, host: 32400, guest: 32400
+  config.vm.network "public_network"
 end
